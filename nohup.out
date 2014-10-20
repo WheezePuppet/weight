@@ -1,7 +1,0 @@
-Loading required package: shiny
-
-Listening on http://199.111.89.20:22222
-Error in startServer(host, port, handlerManager$createHttpuvApp()) : 
-  Failed to create server
-Calls: runApp -> startApp -> startServer
-Execution halted

@@ -2,7 +2,7 @@
 require(RMySQL)
 
 get.connection <- function(force.new=FALSE) {
-    if (!exists("stephen")) {
+    if (!exists("mysql.db.name")) {
         source("mysql_config.R")
     }
     if (force.new || !exists("conn") || is.null(conn)) {

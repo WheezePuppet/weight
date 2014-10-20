@@ -39,13 +39,6 @@ shinyUI(fluidPage(
             actionButton("enter",label="Enter data"),
             textOutput("msg")
         ),
-        #tabPanel("Weight", 
-        #    sidebarLayout(
-        #        sidebarPanel(width=2),
-        #        mainPanel(
-        #            plotOutput("weight"))
-        #    )
-        #),
         tabPanel("Weight", plotOutput("weight")),
         tabPanel("Body Fat %", plotOutput("bodyfat")),
         tabPanel("Water %", plotOutput("water")),
